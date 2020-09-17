@@ -5,10 +5,14 @@ require('dotenv').config();
 
 const uri = process.env.MONGODB_URI || '';
 
-mongoose.connect(uri, {
-    useNewUrlParser: true,
-}).then( db => {
-    console.log('db is connected');
-}).catch( err => {
-    logger.error(err.stack);
-})
+var connectWithRetry = function() {
+    return mongoose.connect(uri, function(err) {
+        if (err) {
+            console.error('Failed to connect to mongo on startup - retrying in 1 sec', err);
+            setTimeout(connectWithRetry, 1000);
+        } else {
+            console.log('db is connected');
+        }
+    });
+};
+connectWithRetry();
