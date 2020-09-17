@@ -1,0 +1,101 @@
+[1600381800000] info server running
+[1600382040000] info server running
+[1600382100000] info server running
+[1600382160000] info server running
+[1600382220000] info server running
+[1600382460000] info server running
+[1600382460000] info server running
+[1600382520000] info server running
+[1600382700000] info server running
+[1600382820000] info server running
+[1600382820000] info server running
+[1600382940000] info server running
+[1600383360000] info server running
+[1600383720000] info server running
+[1600383840000] info server running
+[1600383840000] info server running
+[1600383900000] info server running
+[1600383960000] info server running
+[1600384200000] info server running
+[1600384260000] info server running
+[1600384500000] info server running
+[1600384560000] info server running
+[1600384560000] info server running
+[1600384560000] info server running
+[1600384620000] info server running
+[1600384680000] info server running
+[1600384800000] error TypeError: Cannot read property '_bsontype' of undefined
+    at Object.from (/Users/sabroso/projects/sabroso_dev_test/node_modules/uuid-mongodb/lib/index.js:37:39)
+    at /Users/sabroso/projects/sabroso_dev_test/src/controllers/OrdersController.ts:20:43
+    at step (/Users/sabroso/projects/sabroso_dev_test/src/controllers/OrdersController.ts:33:23)
+    at Object.next (/Users/sabroso/projects/sabroso_dev_test/src/controllers/OrdersController.ts:14:53)
+    at /Users/sabroso/projects/sabroso_dev_test/src/controllers/OrdersController.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/sabroso/projects/sabroso_dev_test/src/controllers/OrdersController.ts:4:12)
+    at exports.createOrder (/Users/sabroso/projects/sabroso_dev_test/src/controllers/OrdersController.ts:17:71)
+    at Layer.handle [as handle_request] (/Users/sabroso/projects/sabroso_dev_test/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/sabroso/projects/sabroso_dev_test/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/sabroso/projects/sabroso_dev_test/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/sabroso/projects/sabroso_dev_test/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/sabroso/projects/sabroso_dev_test/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/sabroso/projects/sabroso_dev_test/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/sabroso/projects/sabroso_dev_test/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/sabroso/projects/sabroso_dev_test/node_modules/express/lib/router/index.js:410:3)
+[1600384920000] info server running
+[1600389600000] info server running
+[1600389780000] info server running
+[1600389960000] info server running
+[1600390320000] info server running
+[1600390800000] error Error: Invalid UUID.
+    at Object.<anonymous> (/Users/sabroso/projects/sabroso_dev_test/node_modules/uuid-mongodb/lib/index.js:10:16)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/sabroso/projects/sabroso_dev_test/src/models/Order.ts:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Module.m._compile (/Users/sabroso/projects/sabroso_dev_test/node_modules/ts-node/src/index.ts:1043:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/sabroso/projects/sabroso_dev_test/node_modules/ts-node/src/index.ts:1046:12)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+[1600391040000] info server running
+[1600391040000] info server running
+[1600391580000] info server running
+[1600391640000] info server running
+[1600391640000] info server running
+[1600391760000] info server running
+[1600391820000] info server running
+[1600392000000] info server running
+[1600392120000] info server running
+[1600392120000] error TypeError: Cannot read property '_bsontype' of undefined
+    at Object.from (/Users/sabroso/projects/sabroso_dev_test/node_modules/uuid-mongodb/lib/index.js:37:39)
+    at /Users/sabroso/projects/sabroso_dev_test/src/controllers/ProductsController.ts:12:19
+    at /Users/sabroso/projects/sabroso_dev_test/node_modules/mongoose/lib/query.js:4439:15
+    at /Users/sabroso/projects/sabroso_dev_test/node_modules/mongoose/lib/helpers/query/completeMany.js:35:39
+    at processTicksAndRejections (internal/process/task_queues.js:76:11)
+[1600392120000] info server running
+[1600392120000] error TypeError: Cannot read property '_bsontype' of undefined
+    at Object.from (/Users/sabroso/projects/sabroso_dev_test/node_modules/uuid-mongodb/lib/index.js:37:39)
+    at /Users/sabroso/projects/sabroso_dev_test/src/controllers/ProductsController.ts:13:19
+    at /Users/sabroso/projects/sabroso_dev_test/node_modules/mongoose/lib/query.js:4439:15
+    at /Users/sabroso/projects/sabroso_dev_test/node_modules/mongoose/lib/helpers/query/completeMany.js:35:39
+    at processTicksAndRejections (internal/process/task_queues.js:76:11)
+[1600392240000] info server running
+[1600392240000] error TypeError: Cannot read property '_bsontype' of undefined
+    at Object.from (/Users/sabroso/projects/sabroso_dev_test/node_modules/uuid-mongodb/lib/index.js:37:39)
+    at /Users/sabroso/projects/sabroso_dev_test/src/controllers/ProductsController.ts:15:19
+    at /Users/sabroso/projects/sabroso_dev_test/node_modules/mongoose/lib/query.js:4439:15
+    at /Users/sabroso/projects/sabroso_dev_test/node_modules/mongoose/lib/helpers/query/completeMany.js:35:39
+    at processTicksAndRejections (internal/process/task_queues.js:76:11)
+[1600392300000] info server running
+[1600392420000] info server running
+[1600392420000] info server running
+[1600392540000] info server running
+[1600392660000] info server running
+[1600394340000] info server running
+[1600394400000] info server running
